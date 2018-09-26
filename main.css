@@ -1,9 +1,7 @@
-#title {
-    text-align: center;
-}
-
+/*ID Specific*/
 #projects {
     border : 1px solid black;
+    text-align: center;
 }
 
 #projectCards {
@@ -11,12 +9,18 @@
     display: flex;
 }
 
+/*Class Specific*/
 .card {
     flex-grow: 1;
     flex-basis: 1px;
     box-shadow: 2px 2px 5px;
     margin: 12px;
     padding: 24px;
+}
+
+/*Other*/
+header{
+    text-align: center;
 }
 
 footer {
